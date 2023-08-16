@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.showcase {
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/Aurorahome.png) no-repeat fixed;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.howToUse {
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/bgSteps.jpeg) no-repeat fixed;
+  background-size: cover;
+}
+
+.testimonial {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #121212 0%,
+    #121212 39%,
+    #e7e4df 39%,
+    #e7e4df 50%,
+    #e7e4df 100%
+  ); /* W3C */
+}
+
+.innertestimonial {
+  height: 80vh;
+  width: 90vw;
+  background-image: url(../assets/testimonialBg.png);
+  background-size: cover;
+}
+
+.faq {
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/faqBg.png) no-repeat fixed;
+  background-size: cover;
+}
+
+.nftBorder {
+  background: rgb(250, 156, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(250, 156, 36, 1) 37%,
+    rgba(187, 187, 187, 1) 100%
+  );
+}
+
+.dashboard ul:nth-child(3) {
+  background-color: #ff800098;
+  border-radius: 100px;
+}
